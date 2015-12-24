@@ -33,10 +33,10 @@
       "lib/js/emojione.min.js"
     ]
   },
-  "license": {
-    "type": "(CC-BY-SA-4.0 and MIT)",
-    "url": "https://github.com/Ranks/emojione/blob/master/LICENSE.md"
-  },
+  "licenses": [
+    "CC-BY-4.0",
+    "MIT"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Ranks/emojione.git"
