@@ -33,5 +33,36 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/blueimp/jQuery-File-Upload.git"
-  }
+  },
+  "npmName": "blueimp-file-upload",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "js/jquery.fileupload*.js",
+        "js/jquery.iframe-transport*.js",
+        "js/cors/jquery.*.js",
+        "js/vendor/jquery.ui.widget*.js",
+        "css/jquery.fileupload*.css"
+      ]
+    }
+  ],
+  "requiredFiles": [
+    "js/jquery.iframe-transport.min.js",
+    "js/jquery.fileupload-angular.min.js",
+    "js/jquery.fileupload-audio.min.js",
+    "js/jquery.fileupload-image.min.js",
+    "js/jquery.fileupload-jquery-ui.min.js",
+    "js/jquery.fileupload-process.min.js",
+    "js/jquery.fileupload-ui.min.js",
+    "js/jquery.fileupload-validate.min.js",
+    "js/jquery.fileupload-video.min.js",
+    "js/cors/jquery.postmessage-transport.min.js",
+    "js/cors/jquery.xdr-transport.min.js",
+    "js/vendor/jquery.ui.widget.min.js",
+    "css/jquery.fileupload-noscript.min.css",
+    "css/jquery.fileupload-ui-noscript.min.css",
+    "css/jquery.fileupload-ui.min.css",
+    "css/jquery.fileupload.min.css"
+  ]
 }
